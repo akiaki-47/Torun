@@ -1,0 +1,251 @@
+/*cta-area*/
+.cta-area{
+	margin: 100px auto;
+	width: 100%;
+	background-size: cover;
+    background-position: center;
+	
+}
+
+.cta-area-text-1{
+	padding: 100px 0;
+}
+.cta-area-text-1 span{
+	color:#FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	font-family:"cerebri_sansbold";
+	text-transform:uppercase;
+	
+}
+
+.cta-area-text-1 h1{
+	color:#FFFFFF;
+	font-size: 36px;
+	font-weight: bold;
+	font-family:"cerebri_sansbold";
+	padding-right: 15px;
+	
+}
+
+.cta-area-btn-text{
+	padding: 125px 0px 95px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button-link-1{
+	background-color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 29px;
+}
+
+.cta-area-button {
+	color: #000000;
+ 	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	font-family:"cerebri_sansbold";
+	text-decoration: none;
+	position: relative;
+    display: inline-block;
+}
+
+.button-link-2 a{
+	padding: 15px 29px;
+    color: red;
+}
+.button-link-2 a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.cta-area-button-2{
+	color: #FFFFFF;
+ 	text-transform: uppercase;
+	font-size: 18px;
+	font-family:"cerebri_sansbold";
+	position: relative;
+    display: inline-block;
+	padding-left: 15px;
+}
+
+.fa fa-phone{
+	color:#FFFFFF;
+}
+
+/*project-area*/
+.project-area{
+	padding: 125px 140px 185px 140px;
+}
+
+.section-title{
+	color: #096bd8;
+    font-family:"cerebri_sansbold";
+    font-size: 14px;
+	text-align:center;
+	margin: 0 50px 75px 50px;
+}
+
+.section-title span{
+	text-transform:uppercase;
+} 
+.section-title h1{
+	color: #000000;
+	font-family:"cerebri_sansbold";
+	font-weight:bold;
+	margin-top: 50px;
+}
+
+.border-left-1{
+    height: 3px;
+    width: 40px;
+    background: #096bd8;
+    left: -15px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+
+.border-right-1{
+    height: 3px;
+    width: 40px;
+    background: #096bd8;
+    right: -15px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+
+#owl-demo .item{
+  padding: 30px 0px;
+  margin: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-align: center;
+}
+
+.owl-item.center .project-text {
+	opacity: 1;
+}
+
+.owl-item.center img{
+	z-index:-1;
+	filter: brightness(0.86);
+}
+
+.project-text a:hover{
+	text-decoration: none;
+}
+
+
+.project-active .owl-dots {
+	bottom: -3px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	z-index: 99;
+	
+}
+
+.project-active .owl-dots [role='button']{
+	background: #CCCCCC;
+}
+.project-active .owl-dot {
+	display: inline-block;
+	height: 6px;
+	margin: 0 5px;
+	width: 20px;
+	background:black; 
+	transition: .3s;
+	border-radius: 3px;
+	z-index:99;
+}
+.project-active .owl-dot.active {
+  position: relative;
+  background:#0099FF;
+  width:40px;
+}
+.project-wrapper {
+	opacity: 1;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+	}
+
+
+.project-active a{
+	color:#333333;
+}
+
+
+
+.project-text {
+	position: absolute;
+    bottom: 30px;
+    transition: .3s;
+    background: #ffffff;
+    padding: 20px 60px 26px 40px;
+    margin: 30px 30px 0;
+    transition: .3s;
+    opacity: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.project-text span{
+	color: #096bd8;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+	font-size: 13px;
+}
+
+.project-active .owl-nav div {
+	background: #f6f2ed;
+	font-size: 18px;
+	left: -35px;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transition: all 0.3s ease 0s;
+	visibility: hidden;
+	color: #9f9f9f;
+	font-weight: 400;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	transform: translateY(-50%);
+}
+.project-active .owl-nav div.owl-next {
+	left: auto;
+	right: -35px;
+}
+.project-active:hover .owl-nav div {
+	opacity: 1;
+	visibility: visible;
+}
+.project-active .owl-nav div:hover {
+	background:blue;
+    color:#fff;
+    box-shadow: 0px 10px 32px 0px rgba(9, 107, 216, 0.61);
+}/* case-study */
+
+/*counter*/
+ .counter-area {
+    background-position: center center;
+    background-size: cover;
+}
+
+.single-counter {
+    padding: 50px 0;
+}
+
+.single-counter-icon {
+    color: white;
+    font-size: 40px;
+}

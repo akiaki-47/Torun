@@ -1,0 +1,2 @@
+[InternetShortcut]
+URL=javascript:(function(){if(!document.getElementById('fountscript')){var founts=document.createElement('script');founts.src='https://fount.artequalswork.com/fount.js';founts.id='fountscript';document.body.appendChild(founts);}})();

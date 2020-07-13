@@ -1,0 +1,59 @@
+/* CSS Index */
+
+@font-face {
+  font-family: 'cerebri_sansbold';
+  src: url("../fonts/CerebriSans-Bold.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cerebri_sansmedium';
+  src: url("../fonts/CerebriSans-Medium.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cerebri_sansregular';
+  src: url("../fonts/CerebriSans-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cerebri_sanssemibold';
+  src: url("../fonts/CerebriSans-SemiBold.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "cerebri_sansregular";
+  font-style: normal;
+  color: #696969;
+}
+
+.img, img {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.pt-130 {
+  padding-top: 130px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.img, img {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
